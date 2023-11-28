@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Responsivo</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>YOU ARE THE FUTURE</h1>
+            <h3>PROGRAMAR EM HTML É VIDA!</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h1>Sobre mim</h1>
+            <a href="#features">Sim eu PROGRAMO em HTML</a>
+        </div>
+
+        <div class="card">
+            <img src="assets/logo.png">
+            <div class="info">
+                <h1>Sou Bernardo Pires</h1>
+                <p>
+                    Conheça Bernardo, um jovem repleto de energia positiva e um espírito contagiante. Com seus cabelos
+                    bagunçados e um sorriso sempre presente no rosto, ele é a personificação da alegria. Bernardo é
+                    conhecido por sua natureza extrovertida, sendo o centro das risadas e brincadeiras em seu círculo
+                    social.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="features">
+        <div class="header">
+            <h1>Características</h1>
+            <a href="#">Voltar</a>
+        </div>
+        <div class="feature-cards">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxl-javascript'></i>
+                    <h1>JavaScript</h1>
+                    <p>
+                        Bem-vindo ao extraordinário mundo do JavaScript, uma linguagem de programação
+                        dinâmica que eleva a experiência digital a novos patamares. Com uma
+                        versatilidade notável, o JavaScript se destaca como a força por trás de
+                        interações envolventes e funcionalidades sofisticadas na web.
+                        <br>
+                        <br>
+                        Código de exemplo:
+                        <br>
+                        <br>
+                        <span>
+                            var nome = prompt("Digite seu nome:");<br>
+                            var saudacao = "Olá, " + nome + "! Bem-vindo!";<br>
+                            alert(saudacao);
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxl-typescript'></i>
+
+                    <h1>TypeScript</h1>
+                    <p>
+                        Bem-vindo ao universo evoluído do TypeScript, uma extensão poderosa e tipada do
+                        JavaScript que eleva o desenvolvimento de software a novos patamares. Projetado
+                        para oferecer mais segurança e clareza ao código, o TypeScript combina a flexibilidade
+                        do JavaScript com a adição crucial de tipos estáticos, proporcionando uma base sólida
+                        para projetos complexos.
+                        <br>
+                        <br>
+                        Código de exemplo:
+                        <br>
+                        <br>
+                        <span>
+                            function somar(a: number, b: number): number {<br>
+                            return a + b;<br>
+                            }<br>
+                            <br>
+                            let numero1: number = 5;<br>
+                            let numero2: number = 10;<br>
+                            <br>
+                            let resultado: number = somar(numero1, numero2);<br>
+                            console.log(`A soma de ${numero1} e ${numero2} é ${resultado}`);<br>
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxl-react'></i>
+                    <h1>React</h1>
+                    <p>
+                        Bem-vindo ao universo revolucionário do React, uma biblioteca JavaScript
+                        que redefine a forma como construímos interfaces de usuário interativas e
+                        dinâmicas. Desenvolvido pelo Facebook, o React tornou-se a escolha preferida
+                        para desenvolvedores que buscam criar experiências web modernas e eficientes.
+                        <br>
+                        <br>
+                        Código de exemplo:
+                        <br>
+                        <br>
+                        <span>
+                            import React from 'react';<br>
+                            <br>
+                            const Mensagem: React.FC = () => {<br>
+                             return (<br>
+                            div<br>
+                                h1 Olá, mundo! /h1<br>
+                            /div<br>
+                            );<br>
+                            };<br>
+                            <br>
+                            const App: React.FC = () => {<br>
+                            return (<br>
+                            div className="App"<br>
+                                Mensagem /<br>
+                            /div<br>
+                            );<br>
+                            };<br>
+                            <br>
+                            export default App;<br>
+
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <div class="header">
+            <h1>Habilidades</h1>
+        </div>
+        <div class="skill-list">
+            <div class="skill" data-percent="90">
+                <i class='bx bxl-html5'></i>
+                <h2>HTML</h2>
+                <span class="percent">0%</span>
+            </div>
+            <div class="skill" data-percent="50">
+                <i class='bx bxl-react'></i>
+                <h2>React</h2>
+                <span class="percent">0%</span>
+            </div>
+            <div class="skill" data-percent="40">
+                <i class='bx bxl-javascript'></i>
+                <h2>JavaScript</h2>
+                <span class="percent">0%</span>
+            </div>
+            <div class="skill" data-percent="55">
+                <i class='bx bxl-typescript'></i>
+                <h2>TypeScript</h2>
+                <span class="percent">0%</span>
+            </div>
+            <div class="skill" data-percent="90">
+                <i class='bx bxl-css3'></i>
+                <h2>CSS</h2>
+                <span class="percent">0%</span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
